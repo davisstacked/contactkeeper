@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://leah123:leah123@contactkeeper.ytepq.mongodb.net/contactkeeper?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://leah123:leah123@contactkeeper.ytepq.mongodb.net/contactkeeper?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
 }
