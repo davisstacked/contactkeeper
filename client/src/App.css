@@ -384,13 +384,17 @@ table th {
   margin-right: 0.6rem;
 }
 
-/* Animation (Add After) */
+/* Animation */
 .item-enter {
   opacity: 0;
 }
 .item-enter-active {
   opacity: 1;
   transition: opacity 1000ms ease-in;
+  -webkit-transition: opacity 1000ms ease-in;
+  -moz-transition: opacity 1000ms ease-in;
+  -ms-transition: opacity 1000ms ease-in;
+  -o-transition: opacity 1000ms ease-in;
 }
 .item-exit {
   opacity: 1;
@@ -398,6 +402,10 @@ table th {
 .item-exit-active {
   opacity: 0;
   transition: opacity 1000ms ease-in;
+  -webkit-transition: opacity 1000ms ease-in;
+  -moz-transition: opacity 1000ms ease-in;
+  -ms-transition: opacity 1000ms ease-in;
+  -o-transition: opacity 1000ms ease-in;
 }
 
 /* Mobile Styles */
